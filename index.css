@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.navbar {
+    background-color: #060b26;
+    height: 5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+ #sidebar{ 
+    position: fixed;
+    top: 5rem;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #060b26;
+    transition: 850ms;
+}
+#sidebar.active{
+    left: 0px;
+}
+#sidebar a{
+    display: block;
+    margin-top: 40px;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    justify-content: center;
+}
+#sidebar a:hover{
+    background-color:#1a83ff ;
+    transition: 700ms;
+}
+
+#sidebar #ham-btn{
+    position: absolute;
+     left: 270px;
+    font-size: 35px;
+
+}
